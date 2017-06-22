@@ -1,0 +1,718 @@
+body,td,p { font-family: Verdana; font-size: 12px; }
+
+html, body { height: 100%; margin: 0px; }
+form { margin: 0px; }
+h1 { font-weight: normal; }
+pre { white-space: pre-line; }
+.wrapper { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -40px; overflow-x: hidden; }
+.footerBot, .push { height: 40px; }
+
+.searchbox
+{
+   height: 28px;
+   width: 100%;
+   font-family: Verdana;
+   font-size: 17px;
+   line-height: 28px;
+   border: 0px;
+   outline: none;
+}
+
+.searchboxaround
+{
+   width: 600px;
+   padding-left: 5px; padding-right: 5px;
+   border: 1px solid #abadb3;
+   background-color: #ffffff;
+   white-space: nowrap;
+   overflow: hidden;
+}
+
+.uploadboxaround, .uploadboxaroundNOHOVER
+{
+   width: 600px;
+   padding-left: 0px; padding-right: 0px;
+   border: 1px solid  #abadb3;
+   background-color: #ffffff;
+   height: 30px;
+   line-height: 30px;
+   overflow: hidden;
+}
+.uploadboxaround:hover
+{
+   background-color: #fff8aa;
+}
+.uploadboxaround:hover font
+{
+   color: #000000;
+}
+
+.prembutton, .filelistblue, .uploadboxaround, .uploadboxaroundNOHOVER,  .searchboxaround, .rounded
+{
+   border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+}
+
+.prembutton
+{
+   display: block;
+   text-align: center;
+   border: 1px solid #208eff;
+   background-color: #64b0ff;
+   color: #ffffff;
+   white-space: nowrap;
+   font-weight: bold;
+   font-size: 20px;
+   width: 100%;
+   height: 40px;
+   line-height: 40px;
+   outline: none;
+   cursor: pointer;
+   margin-bottom: 20px;
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+
+.prembutton:hover
+{
+   -moz-box-shadow: 1px 1px 5px #ccc;
+   -webkit-box-shadow: 1px 1px 5px #ccc;
+   box-shadow: 1px 1px 5px #ccc;
+   border: 1px solid #208eff;
+   background-color: #64b0ff;
+   color: #ffffff;
+}
+
+.premtabletd, .premtabletdb
+{
+   white-space: nowrap;
+}
+.premtabletdb
+{
+   border-bottom: 1px solid #dedede;
+}
+
+.premdescr
+{
+   font-size: 15px;
+   margin-right: 20px;
+}
+
+.fbutton
+{
+   text-decoration: none;
+}
+
+.fbutton, .fbuttoninp, .fbuttonfull, .fbuttonblue, .fbuttonbluesmall
+{
+   display: block;
+   text-decoration: none;
+   text-align: center;
+   border: 1px solid silver;
+   background-color: #eeeeee;
+   color: #666666;
+   font-weight: bold;
+   font-size: 10px;
+   width: 100px;
+   white-space: nowrap;
+   height: 27px;
+   line-height: 27px;
+   outline: none;
+   border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+   cursor: pointer;
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+
+.fbuttoninp
+{
+   height: 20px;
+   line-height: 10px;
+   width: 30px;
+   font-family: Verdana;
+   display: inline;
+}
+
+.fbutton:hover, .fbuttoninp:hover, .fbuttonblue, .fbuttonbluesmall, .pagerNr
+{
+   -moz-box-shadow: 1px 1px 5px #ccc;
+   -webkit-box-shadow: 1px 1px 5px #ccc;
+   box-shadow: 1px 1px 5px #ccc;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#cccccc')";
+   filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#cccccc');
+}
+
+.fbutton:hover, .fbuttoninp:hover, .fbuttonfull:hover, .fbuttonblue, .fbuttonbluesmall, .pagerNr:hover
+{
+   cursor: pointer;
+   border: 1px solid #208eff;
+   background-color: #64b0ff;
+   color: #ffffff;
+}
+
+.fbuttonfull, .fbuttonblue
+{
+   width: 100%;
+   margin-bottom: 20px;
+   font-size: 20px;
+   line-height: 40px;
+   height: 40px;
+}
+
+.choosepackage
+{
+   font-size: 20px;
+   border: 1px solid #bbbbbb;
+   border-bottom: 0;
+   padding: 10px;
+   color: #666666;
+}
+
+.fbuttonprem
+{
+   width: 165px;
+   color: #666666;
+   margin-bottom: 4px;
+   border: 1px solid #208eff;
+   cursor: pointer;
+}
+
+.fbuttonprem:hover b
+{
+    background-color: #64b0ff;
+    color: #ffffff;
+}
+.fbuttonprem:hover h1, .fbuttonprem:hover u
+{
+   background-color: #64b0ff;
+   color: white;
+}
+.fbuttonprem i
+{
+   display: block;
+   height: 5px;
+}
+.fbuttonprem b
+{
+   display: block;
+   padding: 10px;
+   font-size: 20px;
+   margin-bottom: 0px;
+   color: #ffffff;
+   background-color: #64b0ff;
+}
+.fbuttonprem h1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   font-size: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.fbuttonprem u
+{
+   text-decoration: none;
+   font-size: 11px;
+   display: block;
+   margin-top: 0;
+   padding-bottom: 5px;
+}
+.fbuttonprem a:hover
+{
+   border-bottom: 1px solid #64b0ff;
+}
+.prema
+{
+   margin: 0;
+   text-decoration: none;
+   color: #666666;
+}
+.prema:hover
+{
+   margin: 0;
+   text-decoration: none;
+}
+
+
+.headline
+{
+   background-color: #333333;
+   padding-left: 5px;
+   padding-right: 5px;
+   white-space: nowrap;
+   height: 38px;
+   z-index: 100;
+   position: absolute;
+   top: 0px;
+}
+
+.headlineleft, .headlineleftH, .headlineright, .headlinerightH
+{
+   font-size: 12px;
+   color: white;
+   padding:10px;
+   border-top: 2px solid #333333;
+   height: 16px;
+   text-decoration: none;
+}
+
+.headlineleft, .headlineleftH
+{
+   float: left;
+}
+.headlineright, .headlinerightH
+{
+   float: right;
+}
+
+.headlineleftH, .headlinerightH
+{
+   border-top: 2px solid #ffddaa;
+   font-weight: bold;
+}
+.headlineleft:hover, .headlineright:hover
+{
+   background-color: #666666;
+   cursor: pointer;
+   border-top: 2px solid #666666;
+}
+.headlineleftH:hover, .headlinerightH:hover
+{
+   background-color: #666666;
+   cursor: pointer;
+}
+
+.bottomlinksH {
+        line-height: 35px;
+        border-top: 1px solid #eeeeee;
+}
+.bottomlinks {
+	font-size:10px;
+        color: #666666;
+        line-height: 15px;
+        text-decoration: none;
+        margin: 4px;
+}
+
+.bottomlinks:hover {
+text-decoration: underline;
+}
+
+.footer {
+    height:40px;
+    width:100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ytimgover, .ytimgoverHQ { float: left; white-space: nowrap; overflow: hidden; width: 120px; height: 90px; margin: 10px 20px 10px 0px; }
+.ytimgdiv, .ytimgdivHQ { position: relative; border: 1px solid #333333; width: 118px; overflow: hidden; height: 66px; z-index 2; }
+.ytimg, .ytimgHQ { position: relative; top: -12px; border: 0px; z-index: 1; }
+.ytreltxt { text-decoration: none; color: #333333; }
+
+.ytimgoverHQ { width: 240px; height: 180px; }
+.ytimgdivHQ { width: 238px; height: 128px; }
+.ytimgHQ { width: 240px; height: 180px; top: -24px; }
+
+.searchresultlink
+{
+   font-size: 15px;
+   color: blue;
+}
+
+.tag, .tag a { color: green; text-decoration: none; font-size: 11px; }
+.tag a:hover { text-decoration: underline; }
+
+.searchhead
+{
+   font-size: 25px;
+   color: #333333;
+   margin-bottom: 15px;
+   margin-left: -1px;
+}
+
+.resultshort
+{
+   color: #000000;
+}
+.resultshort b
+{
+   color: #000000;
+}
+.resultshort u
+{
+   text-decoration: none;
+   color: #555555;
+}
+
+
+.downloadfilename, .downloadfilenamenotfound, .comheader, .centerheader
+{
+   font-size: 25px;
+   margin-bottom: 5px;
+   margin-top: 0px;
+   color: #333333;
+   white-space: nowrap;
+   overflow: hidden;
+   text-decoration: none;
+   border-bottom: 1px dashed #cccccc;
+}
+.downloadfilenamenotfound
+{
+   border-bottom: 1px solid #ffffff;
+}
+
+.centerheader
+{
+   border:0;
+}
+
+.downloadfilename
+{
+   cursor: pointer;
+}
+.commenthead
+{
+   color: #555555;
+   text-decoration: none;
+   font-size: 25px;
+}
+
+.sizetag
+{
+   margin-left: 20px;
+}
+
+.sizetagtext
+{
+   color: #996633;
+   font-size: 10px;
+   font-weight: bold;
+   white-space: nowrap;
+   line-height: 28px;
+}
+
+.remotelinkstable
+{
+   margin: 10px 10px 10px 0px;
+   padding: 10px;
+   border: 1px solid #dedede;
+}
+.remotelinkstable td
+{
+   padding: 4px;
+}
+
+.remotelinkstable tr:hover
+{
+   background-color: #dedede;
+}
+
+.tagcloser
+{
+   color: #aaaaaa;
+   padding-left: 2px;
+   padding-right: 2px;
+   border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+   cursor: pointer;
+   text-decoration: none;
+}
+.tagcloser:hover
+{
+   background-color: #333333;
+   color: white;
+   cursor: pointer;
+}
+
+.filelist, .filelistdone
+{
+   border-bottom: 1px solid #eeeeee;
+   height: 35px;
+   width: 602px;
+   overflow: hidden;
+   white-space: nowrap;
+}
+
+.filelistblue
+{
+   border: 1px solid #66b1fe;
+   background-color: #96caff;
+}
+
+.filelist table, .filelistdone table
+{
+   background-image: url('/gf/white.png');
+   background-position: 800px 0px;
+   background-repeat: no-repeat;
+}
+
+.filelistdone
+{
+   cursor: pointer;
+}
+
+.filelistdone
+{
+   background-color: #c6e2ff;
+}
+
+.pagerW { margin-top: 20px; }
+.pagerW a
+{
+   text-decoration:none;
+   color: black;
+}
+.pagerNr,.pagerNrCurrent
+{
+   border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+   padding: 7px;
+   margin-right: 10px;
+   border: 1px solid silver;
+   background-color: #eeeeee;
+   font-size: 11px;
+}
+.pagerNr { color: #0000FF; }
+.pagerNrCurrent { color: #AAAAAA; }
+.pagerMr:hover
+{
+   background-color: red;
+}
+
+
+.elip
+{
+   line-height: 22px;
+   margin-top: 1px;
+   white-space: nowrap;
+   width: 450px;
+   overflow: hidden;
+   -o-text-overflow: ellipsis;
+   text-overflow: ellipsis;
+   height: 22px;
+}
+
+.hinp
+{
+   height: 22px;
+   border: 0px;
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+   outline: none;
+   font-family: Verdana;
+   font-size: 12px;
+   cursor: pointer;
+}
+
+
+.transclass
+{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.fasttransition
+{
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+
+
+.finp
+{
+   width: 600px;
+   height: 30px;
+   line-height: 30px;
+   filter: alpha(opacity=0);
+   opacity: 0;
+   outline: none;
+   cursor: pointer;
+}
+
+.movable
+{
+   width: 40px;
+   overflow: hidden;
+   position: absolute;
+}
+
+.loginbox
+{
+   border: 1px solid #cccccc;
+   border-top: 0;
+   -moz-box-shadow: 3px 3px 3px #eeeeee;
+   -webkit-box-shadow: 3px 3px 3px #eeeeee;
+   box-shadow: 3px 3px 3px #eeeeee;
+}
+
+.hline
+{
+   margin-left: 30px;
+   margin-right: 50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   width: 190px;
+   height: 1px;
+   border-bottom: 1px solid #eeeeee;
+}
+
+.inpfilelink
+{
+   width: 430px;
+   font-size: 11px;
+   font-family: verdana;
+   padding: 3px;
+}
+
+.loginlinks
+{
+   color: #cccccc;
+   text-decoration: none;
+   font-size: 10px;
+   font-family: Verdana;
+}
+.loginlinks:hover
+{
+   color: #333333;
+   text-decoration: underline;
+}
+
+
+.filtersH, .filtersXH, .filtersX, .filters, .filtert, .filtertH
+{
+   font-size: 13px;
+   text-decoration: none;
+   display: block;
+   color: #000000;
+   white-space: nowrap;
+}
+
+.filtersX, .filtersXH
+{
+   padding: 5px;
+   margin-left: 5px;
+}
+
+.filtersH, .filters, .filtert, .filtertH
+{
+   padding: 5px;
+   padding-left: 20px;
+   width: 165px;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+
+.filtersH:hover, .filtersXH:hover, .filtersX:hover, .filters:hover, .filtert:hover, .filtertH:hover, .hosters tr:hover
+{
+   background-color: #eeeeee;
+   cursor: pointer;
+}
+
+.filtersH, .filtersXH, .filtertH
+{
+   color: orange;
+   font-weight: bold;
+}
+
+.hosters
+{
+   margin-left: 30px;
+}
+
+.upfeatures td
+{
+   color: #444444;
+}
+
+.upfeatures td:hover
+{
+   cursor: default;
+   color: #000000;
+}
+
+.histfile
+{
+   border-bottom: 1px solid #eeeeee;
+   white-space: nowrap;
+   cursor: pointer;
+}
+.histtop td
+{
+   border-bottom: 1px solid silver;
+   background-color: #eeeeee;
+   white-space: nowrap;
+}
+.histbot > td
+{
+   border-top: 1px solid silver;
+   background-color: #eeeeee;
+   white-space: nowrap;
+}
+.histfile:hover
+{
+   background-color: #eeeeee;
+}
+.oram
+{
+   border: 1px solid silver;
+   padding: 2px;
+   padding-left: 5px; padding-right: 5px;
+   margin-left: 5px;
+   background-color: #ffffff;
+   text-decoration: none;
+   border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+   color: #000000;
+}
+.oram:hover
+{
+   background-color: #333333;
+   color: #ffffff;
+   border: 1px solid #333333;
+   cursor: pointer;
+}
+.linkview td
+{
+   white-space: nowrap;
+   line-height: 25px;
+}
+.hsortlinks
+{
+   color: #333333;
+}
+
+.foldertable
+{
+   width: 500px;
+}
+.foldertable th
+{
+   border-bottom: 1px solid silver;
+   text-align: left;
+   font-weight: normal;
+}
+
+.foldertable th, .foldertable td
+{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.botop
+{
+   border-top: 1px solid silver;
+}
+
+
+.fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr {display: none !important;}
